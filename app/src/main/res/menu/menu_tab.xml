@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.proem.proem.TabActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/notification"
+                android:title="@string/notification" />
+            <item
+                android:id="@+id/sound"
+                android:title="@string/sound" />
+            <item
+                android:id="@+id/vibration"
+                android:title="@string/vibration" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/account"
+        android:title="@string/account" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/terms"
+        android:title="@string/terms" />
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback" />
+
+
+</menu>
